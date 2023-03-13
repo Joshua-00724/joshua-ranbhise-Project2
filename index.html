@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Game</title>
+<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+<link rel=stylesheet href="./style.css">
+<script src="./slide.js"></script>
+</head>
+<body onload="begin()">
+<p><b>To play, simply click on the "cell" blocks in the table</b> <br> <b> to arrange the numbers in squential order.</b></p>
+<p><b>Achieve the best play against your rivals with as much less moves as possible, in the shortest period of time!</b></p>
+<table class="special">
+	<p id="moves"> Number of Moves thus far:</p>
+	<p id="time"> Time spent in the current game:</p>
+	<p>
+		<button onclick="simplegame()">Simple Game</button>
+		<button onclick="window.location.reload()">New Game</button>
+	</p>
+<tr>
+<td id="0" class="cell" onclick="Click(this)">1</td>
+<td id="1" class="cell" onclick="Click(this)">2</td>
+<td id="2" class="cell" onclick="Click(this)">3</td>
+<td id="3" class="cell" onclick="Click(this)">4</td>
+</tr>
+ <tr>
+<td id="4" class="cell" onclick="Click(this)">5</td>
+<td id="5" class="cell" onclick="Click(this)">6</td>
+<td id="6" class="cell" onclick="Click(this)">7</td>
+<td id="7" class="cell" onclick="Click(this)">8</td>
+</tr>
+<tr>
+<td id="8" class="cell" onclick="Click(this)">9</td>
+<td id="9" class="cell" onclick="Click(this)">10</td>
+<td id="10" class="cell" onclick="Click(this)">11</td>
+<td id="11" class="cell" onclick="Click(this)">12</td>
+</tr>
+<tr>
+<td id="12" class="cell" onclick="Click(this)">13</td>
+<td id="13" class="cell" onclick="Click(this)">14</td>
+<td id="14" class="cell" onclick="Click(this)">15</td>
+<td id="15" class="cell" onclick="Click(this)"></td>
+</tr>
+</table>
+</body>
+</html>
+
+
+
+ 
